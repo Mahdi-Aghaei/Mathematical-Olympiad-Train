@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>قطار المپیاد ریاضی</title>
     <style>
-        body {
+               body {
             font-family: 'Vazirmatn', sans-serif;
             direction: rtl;
             text-align: right;
             margin: 40px;
         }
         .container {
-            max-width: 900px;
+            max-width: 1200px;
             margin: auto;
         }
         .header {
@@ -28,27 +28,27 @@
         .content {
             margin-top: 20px;
         }
-        .instructors {
-            display: flex;
-            gap: 20px;
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
             margin-top: 30px;
         }
         .card {
             display: flex;
             align-items: center;
-            width: 48%;
             border: 1px solid #ddd;
             border-radius: 10px;
-            padding: 5px;
+            padding: 10px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
             background-color: white;
         }
         .card img {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 10px;
             object-fit: cover;
-            margin-left: 15px;
+            margin-left: 10px;
         }
         a {
             color: blue;
@@ -61,10 +61,10 @@
         <div class="header">
             <div>
                 <h1>قطار المپیاد ریاضی</h1>
-                <p>بهار 1404 - دوره نوروزی قطار مرحله دوم المپیاد  ریاضی</p>
-                <p><strong>کلاس‌ها:</strong> 2 تا 15 فروردین ساعت 8 الی 15:30</p>
+                <p>بهار 1404 - دوره نوروزی قطار مرحله دوم المپیاد ریاضی</p>
+                <p><strong>کلاس‌ها:</strong>کلاس‌ها: 2 تا 15 فروردین ساعت 8 الی 15:30</p>
             </div>
-            <img src="train.png" alt="Linear Algebra Book">
+            <img src="train.png" alt="Mathematical Olympiad Train">
         </div>
         
         <div class="content">
@@ -77,33 +77,61 @@
         </div>
         
         <h2>مدرسان</h2>
-        <div class="instructors">
+        <div class="grid-container">
             <div class="card">
                 <img src="Mahdi Aghaei.jpg" alt="Mahdi Aghaei">
                 <div>
                     <h3>مهدی آقائی</h3>
-                    <p>استاد ، ترکیبیات</p>
-                    <p>دفتر: CE804, CE803, CE802</p>
-                    <p>ایمیل: <a href="mahdiaghaei.official@gmail.com">mahdiaghaei.official@gmail.com</a></p>
+                    <p>ترکیبیات و هندسه</p>
+                    <p><a href="mahdiaghaei.official@gmail.com">mahdiaghaei.official@gmail.com</a></p>
                 </div>
             </div>
             <div class="card">
                 <img src="Alireza Jannati.jpg" alt="Alireza Jannati">
                 <div>
                     <h3>علیرضا جنتی</h3>
-                    <p>استاد ، ترکیبیات</p>
-                    <p>دفتر: CE804, CE803, CE802</p>
-                    <p>ایمیل: <a href="alireza00ja@gmail.com">alireza00ja@gmail.com</a></p>
+                    <p>نظریه‌اعداد</p>
+                    <p><a href="alireza00ja@gmail.com">alireza00ja@gmail.com</a></p>
                 </div>
             </div>
-            <br>
             <div class="card">
-                <img src="Alireza Jannati.jpg" alt="Alireza Jannati">
+                <img src="Hoda Hosseini.jpg" alt="Hoda Hosseini">
                 <div>
-                    <h3>علیرضا جنتی</h3>
-                    <p>استاد ، ترکیبیات</p>
-                    <p>دفتر: CE804, CE803, CE802</p>
-                    <p>ایمیل: <a href="alireza00ja@gmail.com">alireza00ja@gmail.com</a></p>
+                    <h3>هدی حسینی</h3>
+                    <p>ترکیبیات</p>
+                    <p><a href="Hoda.hosseyni@gmail.com">Hoda.hosseyni@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Heidar Shooshtari.jpg" alt="Heidar Shooshtari">
+                <div>
+                    <h3>حیدر شوشتری</h3>
+                    <p>هندسه</p>
+                    <p><a href="heydarshooshtary@gmail.com">heydarshooshtary@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Mohammad Bahreini.jpg" alt="Mohammad Bahreini">
+                <div>
+                    <h3>محمد بحرینی</h3>
+                    <p>جبر</p>
+                    <p><a href=""></a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Ali Seyedpoor.jpg" alt="Ali Seyedporr">
+                <div>
+                    <h3>علی سیدپور</h3>
+                    <p>ترکیبیات و جبر</p>
+                    <p><a href="seyedaliseyedpour40@gmail.com">seyedaliseyedpour40@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Hoda Hosseini.jpg" alt="Alireza Zarei">
+                <div>
+                    <h3>امیرحسین زارعی</h3>
+                    <p>جبر</p>
+                    <p><a href=""></a></p>
                 </div>
             </div>
         </div>
